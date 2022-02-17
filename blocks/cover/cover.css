@@ -1,0 +1,6 @@
+.cover {
+  position: relative;
+  width: fit-content;
+  border: 1px red solid;
+  box-sizing: border-box;
+}

@@ -1,0 +1,7 @@
+.cover__background {
+  position: relative;
+  width: 100%;
+  max-width: 1184px;
+  border: 1px red solid;
+  box-sizing: border-box;
+}

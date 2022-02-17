@@ -1,0 +1,7 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px red solid;
+  box-sizing: border-box;
+}

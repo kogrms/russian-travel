@@ -1,0 +1,6 @@
+.cover__overlay {
+  position: relative;
+  z-index: 10;
+  border: 1px rgb(0, 255, 0) solid;
+  box-sizing: border-box;
+}

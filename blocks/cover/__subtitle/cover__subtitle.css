@@ -1,0 +1,5 @@
+.cover__subtitle {
+  z-index: 100;
+  border: 1px red solid;
+  box-sizing: border-box;
+}

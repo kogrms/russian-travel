@@ -1,0 +1,9 @@
+.cover__title {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%); */
+  z-index: 100;
+  border: 1px red solid;
+  box-sizing: border-box;
+}
