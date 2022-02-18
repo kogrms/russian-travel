@@ -1,7 +1,10 @@
 .content {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border: 1px red solid;
-  box-sizing: border-box;
+  width: calc(100% - 96px);
+  align-items: center;
+  /* border: 1px red solid;
+  box-sizing: border-box; */
 }

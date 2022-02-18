@@ -1,29 +1,29 @@
 @font-face {
-	src: url(../vendor/fonts/Inter-Regular.woff) format('woff'),
-       url(../vendor/fonts/Inter-Regular.woff2) format('woff2');
+	src: url(./Inter-Regular.woff) format('woff'),
+       url(./Inter-Regular.woff2) format('woff2');
 	font-family: 'Inter-Regular';
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
-	src: url(../vendor/fonts/Inter-Italic.woff) format('woff'),
-       url(../vendor/fonts/Inter-Italic.woff2) format('woff2');
+	src: url(./Inter-Italic.woff) format('woff'),
+       url(./Inter-Italic.woff2) format('woff2');
 	font-family: 'Inter-Italic';
 	font-style: italic;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
-	src: url(../vendor/fonts/Inter-Bold.woff) format('woff'),
-       url(../vendor/fonts/Inter-Bold.woff2) format('woff2');
+	src: url(./Inter-Bold.woff) format('woff'),
+       url(./Inter-Bold.woff2) format('woff2');
 	font-family: 'Inter-Bold';
 	font-weight: bold;
   font-weight: 900;
   font-display: swap;
 }
 @font-face {
-	src: url(../vendor/fonts/Inter-BoldItalic.woff) format('woff'),
-       url(../vendor/fonts/Inter-BoldItalic.woff2) format('woff2');
+	src: url(./Inter-BoldItalic.woff) format('woff'),
+       url(./Inter-BoldItalic.woff2) format('woff2');
 	font-family: 'Inter-BoldItalic';
 	font-style: italic;
 	font-weight: bold;

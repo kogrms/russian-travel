@@ -1,4 +1,11 @@
 .lead__title {
-  border: 1px red solid;
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding-top: 56px;
+  max-width: 720px;
+  color: #fff;
+  font-family: 'Inter-Bold';
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
 }

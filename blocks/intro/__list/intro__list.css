@@ -1,4 +1,13 @@
 .intro__list {
-  border: 1px red solid;
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding-top: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff;
+  font-family: 'Inter-Bold';
+  font-size: 12px;
+  line-height: 1.5;
+  list-style: none;
 }

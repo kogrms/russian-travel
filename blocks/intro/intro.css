@@ -1,4 +1,16 @@
 .intro {
-  border: 1px red solid;
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding-top: 92px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 200px);
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    max-width: 690px;
+    align-self: flex-start;
+    padding-left: 100px;
+  }
 }
