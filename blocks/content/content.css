@@ -7,9 +7,14 @@
   align-items: center;
 }
 
-/* @media (max-width: 1px) {
-  .cover {
-    width: calc(100% + 96px);
-    position: absolute;
+@media (max-width: 425px) {
+  .content {
+    width: calc(100% - 32px);
   }
-} */
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  .content {
+    width: calc(100% - 48px);
+  }
+}

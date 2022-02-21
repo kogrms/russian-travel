@@ -11,3 +11,9 @@
   line-height: 1.5;
   list-style: none;
 }
+
+@media (max-width: 425px) {
+  .intro__list {
+  padding-top: 34px;
+  }
+}

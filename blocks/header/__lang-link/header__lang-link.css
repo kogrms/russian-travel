@@ -1,16 +1,25 @@
 .header__lang-link {
   margin: 0;
   padding: 0;
+  padding-top: 18px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   color: #fff;
   font-family: 'Inter-Regular';
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
 }
 
 .header__lang-link:nth-of-type(1) {
   padding-right: 18px;
   text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+    padding-top: 16px;
+  }
 }

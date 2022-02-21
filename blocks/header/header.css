@@ -8,3 +8,16 @@
   justify-content: space-between;
   width: calc(100% - 96px);
 }
+
+@media (max-width: 425px) {
+  .header {
+    padding-top: 5vw;
+    width: 90%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}

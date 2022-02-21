@@ -1,6 +1,28 @@
 .lead__image {
+  display: block;
   margin: 0;
   padding: 0;
-  width: 100%;
   padding-top: 64px;
+  width: 100%;
+}
+
+@media (max-width: 425px) {
+  .lead__image {
+    width: calc(100% + 32px);
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  .lead__image {
+    width: calc(100% + 48px);
+    padding-top: 56px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .lead__image {
+    width: calc(100% + 200px);
+    padding-top: 56px;
+  }
 }

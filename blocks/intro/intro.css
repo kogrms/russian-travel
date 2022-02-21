@@ -7,10 +7,29 @@
   width: calc(100% - 200px);
 }
 
+@media (max-width: 425px) {
+  .intro {
+    padding-top: 64px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  .intro {
+    padding-top: 88px;
+    width: 100%;
+  }
+}
+
 @media (min-width: 1024px) {
   .intro {
     max-width: 690px;
     align-self: flex-start;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro {
     padding-left: 100px;
   }
 }

@@ -1,11 +1,18 @@
 .lead__title {
   margin: 0;
   padding: 0;
-  padding-top: 56px;
   max-width: 720px;
   color: #fff;
   font-family: 'Inter-Bold';
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1,04;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .lead__title {
+    width: 100%;
+    font-size: 12.5vw;
+    line-height: 1.1;
+  }
 }

@@ -6,6 +6,20 @@
   color: #fff;
   font-family: 'Inter-Regular';
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.25;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .lead__subtitle {
+    width: 100%;
+    font-size: 5vw;
+    line-height: 1.25;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__subtitle {
+    padding-top: 16px;
+  }
 }
