@@ -1,10 +1,7 @@
-.photo-grid {
+.photo-grid__container {
   margin: 0;
   padding: 0;
-  width: 100%;
-}
-
-  /* padding-top: 92px;
+  padding-top: 92px;
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(3, auto);
@@ -12,10 +9,11 @@
   justify-content: center;
   align-content: start;
   max-width: 100%;
+  list-style: none;
 }
 
 @media (max-width: 1279px) {
-  .photo-grid {
+  .photo-grid__container {
     padding: 0;
     padding-top: 92px;
     grid-template-columns: repeat(3, auto);
@@ -26,7 +24,7 @@
 }
 
 @media (max-width: 768px) {
-  .photo-grid {
+  .photo-grid__container {
     padding: 0;
     padding-top: 88px;
     grid-template-columns: repeat(2, auto);
@@ -37,7 +35,7 @@
 }
 
 @media (max-width: 425px) {
-  .photo-grid {
+  .photo-grid__container {
     padding: 0;
     padding-top: 64px;
     grid-template-columns: auto;
@@ -45,4 +43,4 @@
     gap: 12px;
     max-width: 100%;
   }
-} */
+}

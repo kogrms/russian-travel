@@ -32,6 +32,8 @@ and (max-width: 768px) {
 }
 
 .page {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;

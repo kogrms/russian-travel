@@ -1,6 +1,12 @@
 .cover__overlay {
-  position: relative;
+  margin: 0;
+  padding: 0;
+  /* position: relative; */
   z-index: 10;
-  border: 1px rgb(0, 255, 0) solid;
-  box-sizing: border-box;
+  background-color: #2A2C2F;
+  opacity: 0.8;
+}
+
+.cover__overlay:hover {
+  opacity: 0.3;
 }

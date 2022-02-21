@@ -3,5 +3,6 @@
 }
 
 .link:hover {
-  opacity: .7;
+  opacity: .8;
+  cursor: pointer;
 }

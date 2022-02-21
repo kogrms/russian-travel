@@ -1,8 +1,8 @@
-.place__website {
+.place__text {
   margin: 0;
   padding: 0;
+  padding-top: 48px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
   width: calc(100%/2);
 }

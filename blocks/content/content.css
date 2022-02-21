@@ -5,6 +5,11 @@
   flex-direction: column;
   width: calc(100% - 96px);
   align-items: center;
-  /* border: 1px red solid;
-  box-sizing: border-box; */
 }
+
+/* @media (max-width: 1px) {
+  .cover {
+    width: calc(100% + 96px);
+    position: absolute;
+  }
+} */

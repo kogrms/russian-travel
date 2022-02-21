@@ -1,4 +1,22 @@
-.places {
-  border: 1px red solid;
-  box-sizing: border-box;
+@media (min-width: 1280px) {
+  .places {
+    width: calc(100% - 200px);
+  }
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .places {
+    width: 100%;
+  }
+}
+
+.places {
+  margin: 0;
+  padding: 0;
+  padding-top: 92px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
