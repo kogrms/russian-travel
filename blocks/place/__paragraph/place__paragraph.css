@@ -11,3 +11,10 @@
 .place__paragraph:nth-of-type(1n+2) {
   padding-top: 26px;
 }
+
+@media (max-width: 425px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}

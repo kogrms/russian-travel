@@ -6,3 +6,10 @@
   flex-direction: column;
   width: calc(100%/2);
 }
+
+@media (max-width: 425px) {
+  .place__text {
+    width: 100%;
+    padding-top: 32px;
+  }
+}

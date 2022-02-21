@@ -1,8 +1,17 @@
 .place__image {
+  display: block;
   margin: 0;
   padding: 0;
   padding-top: 48px;
   padding-right: 40px;
   width: calc(100%/2);
   box-sizing: border-box;
+}
+
+@media (max-width: 425px) {
+  .place__image {
+    width: calc(100% + 32px);
+    padding-top: 32px;
+    padding-right: 0;
+  }
 }
