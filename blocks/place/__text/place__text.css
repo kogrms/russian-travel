@@ -7,8 +7,9 @@
   width: calc(100%/2);
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .place__text {
+    align-items: center;
     width: 100%;
     padding-top: 32px;
   }

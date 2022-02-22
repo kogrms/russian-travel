@@ -7,3 +7,11 @@
   line-height: 1.12;
   text-decoration: 0;
 }
+
+@media (max-width: 767px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+    text-decoration: 0;
+  }
+}

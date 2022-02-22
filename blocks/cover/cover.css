@@ -11,3 +11,10 @@
     width: calc(100% + 48px);
   }
 }
+
+@media (max-width: 425px) {
+  .cover {
+    width: calc(100% + 32px);
+    margin-top: 66px;
+  }
+}
