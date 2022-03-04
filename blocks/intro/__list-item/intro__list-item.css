@@ -1,24 +1,24 @@
 .intro__list-item:nth-of-type(1)::after {
   content: "11";
-  font-family: 'Inter-Regular';
+  font-weight: 400;
 }
 
 .intro__list-item:nth-of-type(2)::after {
   content: "12";
-  font-family: 'Inter-Regular';
+  font-weight: 400;
 }
 
 .intro__list-item:nth-of-type(3)::after {
   content: "16";
-  font-family: 'Inter-Regular';
+  font-weight: 400;
 }
 
 .intro__list-item:nth-of-type(4)::after {
   content: "105";
-  font-family: 'Inter-Regular';
+  font-weight: 400;
 }
 
 .intro__list-item:nth-of-type(5)::after {
   content: "241";
-  font-family: 'Inter-Regular';
+  font-weight: 400;
 }

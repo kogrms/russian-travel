@@ -3,7 +3,7 @@
   padding: 0;
   width: 560px;
   color: #fff;
-  font-family: 'Inter-Bold';
+  font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
@@ -13,8 +13,8 @@
 
 @media (max-width: 767px) {
   .cover__title {
-    font-size: 32px;
+    font-size: 9.9vw;
     line-height: 1.09;
-    max-width: 70vw;
+    width: 78%;
   }
 }

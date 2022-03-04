@@ -4,7 +4,7 @@
   padding-top: 32px;
   width: 360px;
   color: #fff;
-  font-family: 'Inter-Regular';
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
@@ -12,11 +12,20 @@
   pointer-events: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 425px) {
   .cover__subtitle {
     padding-top: 16px;
     font-size: 14px;
     line-height: 1.14;
-    max-width: 80vw;
+    width: 288px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  .cover__subtitle {
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 1.14;
+    width: 320px;
   }
 }
