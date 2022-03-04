@@ -1,15 +1,32 @@
-.cover__overlay {
+.cover__link {
   position: relative;
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 10;
-  background-color: #2A2C2F;
-  opacity: 0.8;
+  width: 100%;
+  min-height: calc((100vw - 96px)*.625);
+  z-index: 100;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.cover__overlay:hover {
-  opacity: 0.3;
+@media (min-width: 1023px) and (max-width: 1279px) {
+  .cover__link {
+    min-height: 62.5vw;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  .cover__link {
+    min-height: 62.5vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__link {
+    min-height: 62.5vw;
+  }
 }
