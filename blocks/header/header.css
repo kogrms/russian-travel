@@ -9,7 +9,7 @@
   width: calc(100% - 96px);
 }
 
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .header {
     padding-top: 5vw;
     width: 90%;

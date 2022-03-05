@@ -7,3 +7,9 @@
   font-size: 18px;
   line-height: 1.22;
 }
+
+@media (max-width: 425px) {
+  .place__link {
+    width: calc(100% - 32px);
+  }
+}

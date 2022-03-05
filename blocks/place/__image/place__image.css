@@ -21,21 +21,9 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .place__image {
-    position: relative;
-    left: -24px;
-    width: calc(100% + 48px);
-    padding-top: 32px;
-    padding-right: 0;
-  }
-}
-
-@media (max-width: 425px) {
-  .place__image {
-    position: relative;
-    left: -16px;
-    width: calc(100% + 32px);
+    width: 100%;
     padding-top: 32px;
     padding-right: 0;
   }
