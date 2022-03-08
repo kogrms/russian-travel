@@ -21,10 +21,9 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .photo-grid__container {
     padding-top: 88px;
-    padding-left: 16px;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(6, auto);
     gap: 16px;
@@ -34,8 +33,6 @@
 @media (max-width: 425px) {
   .photo-grid__container {
     padding-top: 64px;
-    padding-left: 16px;
-    width: calc(100% - 32px);
     grid-template-columns: auto;
     grid-template-rows: repeat(12, auto);
     gap: 12px;

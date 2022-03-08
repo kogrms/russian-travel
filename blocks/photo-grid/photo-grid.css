@@ -3,3 +3,21 @@
   padding: 0;
   width: 100%;
 }
+
+@media (max-width: 767px) {
+  .photo-grid {
+    width: calc(100% - 32px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid {
+    width: calc(100% - 48px);
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .photo-grid {
+    width: calc(100% - 96px)
+  }
+}

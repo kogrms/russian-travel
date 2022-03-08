@@ -8,6 +8,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   width: calc(100% - 96px);
+  max-width: 1184px;
 }
 
 @media (max-width: 767px) {
