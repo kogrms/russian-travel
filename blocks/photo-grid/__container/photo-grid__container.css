@@ -14,21 +14,17 @@
 
 @media (max-width: 1279px) {
   .photo-grid__container {
-    padding: 0;
     padding-top: 92px;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(4, auto);
     gap: 14px;
-    max-width: 100%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .photo-grid__container {
-    padding: 0;
     padding-top: 88px;
     padding-left: 16px;
-    width: calc(100% - 32px);
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(6, auto);
     gap: 16px;
@@ -37,13 +33,11 @@
 
 @media (max-width: 425px) {
   .photo-grid__container {
-    padding: 0;
     padding-top: 64px;
     padding-left: 16px;
     width: calc(100% - 32px);
     grid-template-columns: auto;
     grid-template-rows: repeat(12, auto);
     gap: 12px;
-    max-width: 100%;
   }
 }

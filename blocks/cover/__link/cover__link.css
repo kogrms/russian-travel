@@ -7,26 +7,21 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: calc((100vw - 96px)*.625);
   z-index: 100;
   cursor: pointer;
   text-decoration: none;
 }
 
-@media (min-width: 1023px) and (max-width: 1279px) {
+@media (min-width: 1280px) {
+  .cover__link {
+    width: 1184px;
+    height: 740px;
+  }
+}
+
+@media (max-width: 1279px) {
   .cover__link {
     min-height: 62.5vw;
   }
 }
 
-@media (min-width: 426px) and (max-width: 1023px) {
-  .cover__link {
-    min-height: 62.5vw;
-  }
-}
-
-@media (max-width: 425px) {
-  .cover__link {
-    min-height: 62.5vw;
-  }
-}

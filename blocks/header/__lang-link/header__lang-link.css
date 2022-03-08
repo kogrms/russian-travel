@@ -9,11 +9,11 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 1.17;
+  text-decoration: none;
 }
 
 .header__lang-link:nth-of-type(1) {
   padding-right: 18px;
-  text-decoration: underline;
 }
 
 @media (max-width: 425px) {

@@ -10,14 +10,18 @@
   <div class="page">
     <header class="header">
       <div class="header__logo"></div>
-      <div class="header__lang-links">
-        <p class="header__lang-link">Ru</p>
-        <p class="header__lang-link">En</p>
-      </div>
+      <ul class="header__lang-links">
+        <li class="header__list">
+          <a href="#" class="header__lang-link header__lang-link_selected link">Ru</a>
+        </li>
+        <li class="header__list">
+          <a href="#" class="header__lang-link link">En</a>
+        </li class="header__list">
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
+        <h1 class="lead__title">Путешествия по&nbspРоссии</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="lead__image" src="./images/lead-image_cmprsd.jpg" alt="Полка в плацкартном вагоне">
         <p class="lead__caption">ваша полка — верхняя</p>
@@ -33,11 +37,11 @@
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li class="intro__list-item">Часовых поясов </li>
-          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО </li>
-          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО </li>
-          <li class="intro__list-item">Природных заповедников </li>
-          <li class="intro__list-item">Аэропортов </li>
+          <li class="intro__list-item">Часовых поясов <span class="intro__list_span">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list_span">12</span></li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list_span">16</span></li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__list_span">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__list_span">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -84,7 +88,7 @@
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="http://park-kosa.ru" class="place__link link">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/paces-image-kosa_x2_cmprsd.jpg" alt="Берег моря">
@@ -182,7 +186,7 @@
       <section class="cover">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <div class="cover__text">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <h2 class="cover__title">До Байкала «на&nbspсобаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
           </div>
         </a>
@@ -196,7 +200,7 @@
         <a href="https://calendar.yandex.ru" class="footer__link link">Календарь</a>
         <a href="https://travel.yandex.ru" class="footer__link link">Путешествия</a>
       </nav>
-      <div class="footer__copyright">&copy;2022. Константин Бабушкин</div>
+      <p class="footer__copyright">&copy;2022. Константин Бабушкин</p>
     </footer>
   </div>
 </body>
