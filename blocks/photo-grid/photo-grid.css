@@ -18,6 +18,6 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid {
-    width: calc(100% - 96px)
+    width: calc(100% - 96px);
   }
 }
