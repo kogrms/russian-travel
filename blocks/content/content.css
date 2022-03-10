@@ -10,6 +10,6 @@
 
 @media (min-width: 1280px) {
   .content {
-    width: calc(100% - 96px);
+    max-width: 1184px;
   }
 }

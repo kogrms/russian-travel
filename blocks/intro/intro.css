@@ -34,5 +34,6 @@
 @media (min-width: 1280px) {
   .intro {
     padding-left: 100px;
+    width: 690px;
   }
 }
